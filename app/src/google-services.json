@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1074190818818",
+    "project_id": "heart-disease-prediction-e5b50",
+    "storage_bucket": "heart-disease-prediction-e5b50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074190818818:android:f11d1ce6382d7bec02d11b",
+        "android_client_info": {
+          "package_name": "com.example.heartdiseasepredictor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP-fWOGZVqDXBRZjYOOHP23DpZ9SFOwHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

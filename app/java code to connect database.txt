@@ -1,0 +1,96 @@
+import com.google.auth.oauth2.GoogleCredentials;
+        import com.google.firebase.FirebaseApp;
+        import com.google.firebase.FirebaseOptions;
+        import com.google.firebase.cloud.FirestoreClient;
+        import com.google.cloud.firestore.DocumentReference;
+        import com.google.cloud.firestore.DocumentSnapshot;
+        import com.google.cloud.firestore.QueryDocumentSnapshot;
+        import com.google.cloud.firestore.QuerySnapshot;
+
+        import java.io.FileInputStream;
+        import java.io.IOException;
+
+public class FirebaseExample {
+
+    public static void main(String[] args) {
+        try {
+            FileInputStream serviceAccount = new FileInputStream("path/to/your/firebase-service-account-key.json");
+
+            FirebaseOptions options = new FirebaseOptions.Builder()
+                    .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+                    .setDatabaseUrl("https://your-firebase-project-id.firebaseio.com")
+                    .build();
+
+            FirebaseApp.initializeApp(options);
+
+            // Access Firestore
+            var db = FirestoreClient.getFirestore();
+
+            // Specify the collection name
+            String collectionName = "yourCollectionName";
+
+            // Example data
+            String exerciseST = "ST_Depression";
+            String fastingBloodSugar = "Fasting_Blood_Sugar";
+            String cholesterol = "Cholesterol";
+            String restingECG = "Resting_ECG";
+            String restingBloodPressure = "Resting_Blood_Pressure";
+            String maxHeartRate = "Max_Heart_Rate";
+            String chestPainType = "Chest_Pain_Type";
+
+            // Add data to Firestore
+            db.collection(collectionName).add(
+                    new YourDataModel(
+                            exerciseST,
+                            fastingBloodSugar,
+                            cholesterol,
+                            restingECG,
+                            restingBloodPressure,
+                            maxHeartRate,
+                            chestPainType
+                    )
+            );
+
+            // Retrieve data from Firestore
+            QuerySnapshot querySnapshot = db.collection(collectionName).get().get();
+            for (QueryDocumentSnapshot document : querySnapshot) {
+                YourDataModel dataModel = document.toObject(YourDataModel.class);
+                System.out.println(dataModel);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+// Define a data model class matching your Firestore document structure
+class YourDataModel {
+    private String Column10;
+    private String Column3;
+    private String Column4;
+    private String Column5;
+    private String Column6;
+    private String Column7;
+    private String Column8;
+    private String Column9;
+
+    public YourDataModel() {
+        // Default constructor required for Firestore
+    }
+
+    public YourDataModel(String column10, String column3, String column4, String column5,
+                         String column6, String column7, String column8) {
+        Column10 = column10;
+        Column3 = column3;
+        Column4 = column4;
+        Column5 = column5;
+        Column6 = column6;
+        Column7 = column7;
+        Column8 = column8;
+        Column9 = column9;
+    }
+
+    // Getters and setters (or use Lombok for auto-generating)
+    // ...
+}

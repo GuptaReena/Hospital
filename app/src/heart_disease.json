@@ -1,0 +1,414 @@
+{
+  "Sheet1": [
+    {
+      "Column10": " Exercise_ST ",
+      "Column3": " ST_Depression ",
+      "Column4": " Fasting_Blood_Sugar ",
+      "Column5": " Cholesterol ",
+      "Column6": " Resting_ECG ",
+      "Column7": " Resting_Blood_Pressure ",
+      "Column8": " Max_Heart_Rate ",
+      "Column9": " Chest_Pain_Type "
+    },
+    {
+      "Column10": 1,
+      "Column3": 2.3,
+      "Column4": 1,
+      "Column5": 210,
+      "Column6": 1,
+      "Column7": 130,
+      "Column8": 132,
+      "Column9": 0
+    },
+    {
+      "Column10": 0,
+      "Column3": 1.5,
+      "Column4": 0,
+      "Column5": 211,
+      "Column6": 0,
+      "Column7": 120,
+      "Column8": 150,
+      "Column9": 2
+    },
+    {
+      "Column10": 2,
+      "Column3": 0.8,
+      "Column4": 1,
+      "Column5": 212,
+      "Column6": 2,
+      "Column7": 140,
+      "Column8": 175,
+      "Column9": 3
+    },
+    {
+      "Column10": 1,
+      "Column3": 3.2,
+      "Column4": 1,
+      "Column5": 213,
+      "Column6": 0,
+      "Column7": 118,
+      "Column8": 160,
+      "Column9": 1
+    },
+    {
+      "Column10": 0,
+      "Column3": 0.5,
+      "Column4": 0,
+      "Column5": 214,
+      "Column6": 1,
+      "Column7": 122,
+      "Column8": 145,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 2,
+      "Column4": 0,
+      "Column5": 215,
+      "Column6": 2,
+      "Column7": 128,
+      "Column8": 155,
+      "Column9": 2
+    },
+    {
+      "Column10": 0,
+      "Column3": 1.1,
+      "Column4": 1,
+      "Column5": 216,
+      "Column6": 0,
+      "Column7": 135,
+      "Column8": 170,
+      "Column9": 1
+    },
+    {
+      "Column10": 2,
+      "Column3": 0.3,
+      "Column4": 0,
+      "Column5": 217,
+      "Column6": 1,
+      "Column7": 126,
+      "Column8": 140,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 1.8,
+      "Column4": 1,
+      "Column5": 218,
+      "Column6": 2,
+      "Column7": 132,
+      "Column8": 165,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 2.5,
+      "Column4": 1,
+      "Column5": 219,
+      "Column6": 1,
+      "Column7": 138,
+      "Column8": 180,
+      "Column9": 1
+    },
+    {
+      "Column10": 0,
+      "Column3": 1,
+      "Column4": 0,
+      "Column5": 220,
+      "Column6": 0,
+      "Column7": 115,
+      "Column8": 148,
+      "Column9": 2
+    },
+    {
+      "Column10": 2,
+      "Column3": 0.7,
+      "Column4": 1,
+      "Column5": 221,
+      "Column6": 2,
+      "Column7": 142,
+      "Column8": 155,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 2.2,
+      "Column4": 0,
+      "Column5": 222,
+      "Column6": 1,
+      "Column7": 124,
+      "Column8": 152,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 1.3,
+      "Column4": 1,
+      "Column5": 223,
+      "Column6": 0,
+      "Column7": 120,
+      "Column8": 140,
+      "Column9": 1
+    },
+    {
+      "Column10": 1,
+      "Column3": 0.9,
+      "Column4": 0,
+      "Column5": 224,
+      "Column6": 2,
+      "Column7": 128,
+      "Column8": 162,
+      "Column9": 2
+    },
+    {
+      "Column10": 2,
+      "Column3": 1.5,
+      "Column4": 1,
+      "Column5": 225,
+      "Column6": 1,
+      "Column7": 134,
+      "Column8": 175,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 3,
+      "Column4": 1,
+      "Column5": 226,
+      "Column6": 0,
+      "Column7": 122,
+      "Column8": 168,
+      "Column9": 0
+    },
+    {
+      "Column10": 0,
+      "Column3": 0.4,
+      "Column4": 0,
+      "Column5": 227,
+      "Column6": 1,
+      "Column7": 130,
+      "Column8": 150,
+      "Column9": 2
+    },
+    {
+      "Column10": 1,
+      "Column3": 2.8,
+      "Column4": 1,
+      "Column5": 228,
+      "Column6": 2,
+      "Column7": 136,
+      "Column8": 185,
+      "Column9": 1
+    },
+    {
+      "Column10": 2,
+      "Column3": 1.2,
+      "Column4": 0,
+      "Column5": 229,
+      "Column6": 0,
+      "Column7": 118,
+      "Column8": 160,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 1.7,
+      "Column4": 1,
+      "Column5": 230,
+      "Column6": 1,
+      "Column7": 138,
+      "Column8": 170,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 0.6,
+      "Column4": 0,
+      "Column5": 231,
+      "Column6": 2,
+      "Column7": 142,
+      "Column8": 145,
+      "Column9": 2
+    },
+    {
+      "Column10": 1,
+      "Column3": 2,
+      "Column4": 1,
+      "Column5": 232,
+      "Column6": 0,
+      "Column7": 115,
+      "Column8": 152,
+      "Column9": 1
+    },
+    {
+      "Column10": 0,
+      "Column3": 1.1,
+      "Column4": 0,
+      "Column5": 233,
+      "Column6": 1,
+      "Column7": 126,
+      "Column8": 140,
+      "Column9": 2
+    },
+    {
+      "Column10": 2,
+      "Column3": 1.9,
+      "Column4": 1,
+      "Column5": 234,
+      "Column6": 2,
+      "Column7": 132,
+      "Column8": 155,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 0.8,
+      "Column4": 0,
+      "Column5": 235,
+      "Column6": 0,
+      "Column7": 120,
+      "Column8": 148,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 2.3,
+      "Column4": 1,
+      "Column5": 236,
+      "Column6": 1,
+      "Column7": 134,
+      "Column8": 165,
+      "Column9": 1
+    },
+    {
+      "Column10": 1,
+      "Column3": 1.4,
+      "Column4": 0,
+      "Column5": 237,
+      "Column6": 2,
+      "Column7": 136,
+      "Column8": 175,
+      "Column9": 2
+    },
+    {
+      "Column10": 2,
+      "Column3": 0.5,
+      "Column4": 1,
+      "Column5": 238,
+      "Column6": 0,
+      "Column7": 122,
+      "Column8": 160,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 2.7,
+      "Column4": 1,
+      "Column5": 239,
+      "Column6": 1,
+      "Column7": 130,
+      "Column8": 180,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 1,
+      "Column4": 0,
+      "Column5": 240,
+      "Column6": 1,
+      "Column7": 128,
+      "Column8": 152,
+      "Column9": 1
+    },
+    {
+      "Column10": 0,
+      "Column3": 0.9,
+      "Column4": 1,
+      "Column5": 241,
+      "Column6": 2,
+      "Column7": 142,
+      "Column8": 162,
+      "Column9": 2
+    },
+    {
+      "Column10": 2,
+      "Column3": 2.5,
+      "Column4": 0,
+      "Column5": 242,
+      "Column6": 0,
+      "Column7": 115,
+      "Column8": 168,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 0.3,
+      "Column4": 1,
+      "Column5": 243,
+      "Column6": 1,
+      "Column7": 134,
+      "Column8": 148,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 1.8,
+      "Column4": 0,
+      "Column5": 244,
+      "Column6": 2,
+      "Column7": 136,
+      "Column8": 155,
+      "Column9": 1
+    },
+    {
+      "Column10": 1,
+      "Column3": 1.2,
+      "Column4": 1,
+      "Column5": 245,
+      "Column6": 0,
+      "Column7": 120,
+      "Column8": 160,
+      "Column9": 2
+    },
+    {
+      "Column10": 2,
+      "Column3": 1.6,
+      "Column4": 0,
+      "Column5": 246,
+      "Column6": 1,
+      "Column7": 126,
+      "Column8": 175,
+      "Column9": 3
+    },
+    {
+      "Column10": 0,
+      "Column3": 2.1,
+      "Column4": 1,
+      "Column5": 247,
+      "Column6": 2,
+      "Column7": 132,
+      "Column8": 140,
+      "Column9": 0
+    },
+    {
+      "Column10": 1,
+      "Column3": 0.7,
+      "Column4": 0,
+      "Column5": 248,
+      "Column6": 0,
+      "Column7": 118,
+      "Column8": 145,
+      "Column9": 1
+    },
+    {
+      "Column10": 0,
+      "Column3": 1.3,
+      "Column4": 1,
+      "Column5": 249,
+      "Column6": 1,
+      "Column7": 130,
+      "Column8": 155,
+      "Column9": 2
+    }
+  ]
+}
